@@ -12,7 +12,7 @@
 
 
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -45,7 +45,7 @@ comments:
     issue_term           : # "pathname" (default)
   staticman:
     branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/marcodallavecchia/gh-pages"
+    endpoint             : # 
 reCaptcha:
   siteKey                :
   secret                 :
@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "Fernando Prado Araujo"
   avatar           : #"/assets/images/logo_v1.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Brazilian, geologist, PhD student at KUL. 
-                      Researcher, Mineralogy and Petrology, Raman spectroscopy, Economic geology"
+  bio              : "Brazilian | geologist | PhD student at KUL. 
+                      Researcher specialized on Mineralogy and Petrology, Raman spectroscopy, Economic geology"
   location         : "Leuven, Belgium"
   email            :
   links:
@@ -107,7 +107,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://www.kuleuven.be/wieiswie/en/person/00125722"
     - label: "LinkedIn"
-      icon: "fa-linkedin-square"
+      icon: "fas fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/fernando-prado-araujo-2a0a56190/"
     - label: "ResearchGate"
       icon: "fas fa-fw fa-link"
@@ -118,12 +118,7 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Fern_on_rocks"
-    #- label: "Facebook"
-    #  icon: "fab fa-fw fa-facebook-square"
-    #  url: "https://www.facebook.com/BiologistAdventure/"
-    #- label: "Instagram"
-      #icon: "fab fa-fw fa-instagram"
-      #url: "https://www.instagram.com/biologistsadventure/"
+
 
 # Site Footer
 footer:
@@ -272,19 +267,13 @@ compress_html:
 
 # Collections
 #collections:
-#  jaw-drop:
-#    output: true
-#    permalink: /:collection/:path/
-#  astounding-questions:
-#    output: true
-#    permalink: /:collection/:path/
-#  evolution-pills:
+#  trips:
 #    output: true
 #    permalink: /:collection/:path/   
-#  eat-the-world:
+#  blog:
 #    output: true
 #    permalink: /:collection/:path/   
-#  coding-adventures:
+#  codes:
 #    type: special
 #    output: true
 #    permalink: /:collection/:path/  
@@ -308,50 +297,30 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _jaw-drop
+  # _trips
 #  - scope:
 #      path: ""
-#      type: jaw-drop
+#      type: trips
 #    values:
 #      layout: single
 #      author_profile: true
 #      share: true
 #      read_time: true
 #      comments: true
-  # _astounding-questions
+  # _blog
 #  - scope:
 #      path: ""
-#      type: astounding-questions
-#    values:
-#      layout: single
-#      author_profile: true
-#      share: true
-#      read_time: true
-#      comments: true
-  # _evolution-pills
-#  - scope:
-#      path: ""
-#      type: evolution-pills
-#    values:
-#      layout: single
-#      author_profile: true
-#      share: true
-#      read_time: true
-#      comments: true
-  # _eat-the-world
-#  - scope:
-#      path: ""
-#      type: eat-the-world
+#      type: blog
 #    values:
 #      layout: single
 #      author_profile: false
 #      share: true
 #      read_time: true
 #      comments: true
-  # _coding-adventures
+  # _codes
 #  - scope:
 #      path: ""
-#      type: coding-adventures
+#      type: codes
 #    values:
 #      layout: single
 #      author_profile: true
