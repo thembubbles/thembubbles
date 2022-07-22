@@ -27,43 +27,35 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
 		
-			
-			
-<!--    Made by Erik Terwan    -->
-<!--   24th of November 2015   -->
-<!--        MIT License        -->  
-		<nav role="navigation">
-			<div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-   			 <input type="checkbox" />
-    
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-    <ul id="menu">
-      <a href="index.html">Home</a>
-      <a href="publications.html">publications</a>
-      <a href="projects.html">projects</a>
-      <!-- <a href="blog.html">blog</a> -->
+<div class="mobile-wrapper">
+  <div class="mobile-container">
+    <div class="content">
+      <nav>
+        <input type="checkbox" id="hamburger1" />
+        <label for="hamburger1"></label>
+        
+        <ul class="nav-links">
+<li>
+	<a href="index.html">Home</a>
+</li>
+<li> 
+	<a href="publications.html">publications</a>
+</li>
+<li> 
+	<a href="projects.html">projects</a>
+</li>
+	<!-- <a href="blog.html">blog</a> -->
 	<!-- <a href="blog.html">about</a> -->
-      <a href="CV-fernando_pradoaraujo.pdf">CV</a>
-    </ul>
+<li> 
+	<a href="CV-fernando_pradoaraujo.pdf">CV</a>
+</li>
+        </ul>
+      </nav>
+    </div>
   </div>
-</nav>
+</div>			
+			
+
 				
 <!-- /.container -->
 </nav>
