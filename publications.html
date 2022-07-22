@@ -22,37 +22,57 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-<div class="container">
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-		<i class="fa fa-bars"></i>
-		</button>
-		<a class="navbar-brand page-scroll" style="color: #303030;" href="index.html">
-		THEM BUBBLES
-		</a>
-	</div>
-	<!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-		<ul class="nav navbar-nav" style="color: #303030;">
-			<li>
-			<a href="index.html">Home</a>
-			</li>
-			<li>
-			<a href="publications.html">publications</a>
-			</li>
-			<li>
-			<a href="projects.html">projects</a>
-			</li>
-			<li>
-			<a href="blog.html">blog</a>
-			</li>
-		</ul>
-	</div>
-	<!-- /.navbar-collapse -->
-</div>
+	<!-- Navigation -->
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="mobile-container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand page-scroll" href="index.html">
+					THEM BUBBLES </a>
+			</div>
+			
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="topnav">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="publications.html">publications</a>
+					</li>
+					<li>
+						<a href="projects.html">projects</a>
+					</li>
+					<li>
+						<a href="blog.html">blog</a>
+					</li>
+					<li>
+						<a href="CV-fernando_pradoaraujo.pdf">CV</a>
+					</li>
+				</ul>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+ 			</a>
+			<!-- /.navbar-collapse -->
+		</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+		
 <!-- /.container -->
 </nav>
 <!-- Publication Section -->
