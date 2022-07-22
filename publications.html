@@ -26,53 +26,45 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 	<!-- Navigation -->
 	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-		<div class="mobile-container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-					<i class="fa fa-bars"></i>
-				</button>
-				<a class="navbar-brand page-scroll" href="index.html">
-					THEM BUBBLES </a>
-			</div>
-			
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="topnav">
-				<ul class="nav navbar-nav">
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="publications.html">publications</a>
-					</li>
-					<li>
-						<a href="projects.html">projects</a>
-					</li>
-					<li>
-						<a href="blog.html">blog</a>
-					</li>
-					<li>
-						<a href="CV-fernando_pradoaraujo.pdf">CV</a>
-					</li>
-				</ul>
-			</div>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    			<i class="fa fa-bars"></i>
- 			</a>
-			<!-- /.navbar-collapse -->
-		</div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
 		
+			
+			
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->  
+		<nav role="navigation">
+			<div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+   			 <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="index.html">Home</a>
+      <a href="publications.html">publications</a>
+      <a href="projects.html">projects</a>
+      <!-- <a href="blog.html">blog</a> -->
+	<!-- <a href="blog.html">about</a> -->
+      <a href="CV-fernando_pradoaraujo.pdf">CV</a>
+    </ul>
+  </div>
+</nav>
+				
 <!-- /.container -->
 </nav>
 <!-- Publication Section -->
